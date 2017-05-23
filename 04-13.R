@@ -89,6 +89,7 @@ plot(tiempo,seno121020dc,type='l')
 fft.seno1 <- fft(seno1)
 plot(Mod(fft.seno1),type='l')
 
+
 seno1a <- Re(fft(fft.seno1,inverse=TRUE)/n)
 plot(tiempo,seno1a,type='l')
 
